@@ -32,7 +32,9 @@ El sitio utiliza Google Fonts como mejora visual; si no hay conexión, se mostra
 
 ## Nota sobre contenido
 
-SRIU se presenta como un prototipo académico con vistas para alumnos y administradores. PixelShop se describe como proyecto académico de tienda en línea. Las imágenes de las tarjetas son ilustraciones decorativas, no capturas de sistemas publicados.
+SRIU se presenta como un prototipo académico con vistas para alumnos y administradores. 
+
+PixelShop se describe como proyecto académico de tienda en línea. Las imágenes de las tarjetas son ilustraciones decorativas, no capturas de sistemas publicados.
 
 ## Rediseño "After Hours" (versión 4)
 

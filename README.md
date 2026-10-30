@@ -21,24 +21,6 @@ Sitio personal estático para presentar formación, habilidades y proyectos acad
 
 El sitio utiliza Google Fonts como mejora visual; si no hay conexión, se mostrarán fuentes alternativas del sistema.
 
-## Pendientes antes de entregar
-
-1. **PixelShop**: el repositorio `github.com/Joseyta/PixelShop` está vacío. Sube el código (aunque sea una primera versión) para que el proyecto no cuente como vacío.
-2. **Demos**: publica SRIU y PixelShop (Netlify, Vercel o GitHub Pages) y agrega un segundo enlace "Ver demo" en cada tarjeta de `index.html`.
-3. **Nombre de SRIU**: el README del repositorio dice "SIIA+". Unifica el nombre en el repositorio y en el sitio.
-4. **Idiomas**: en `script.js` edita `factOneText` (ES/EN/FR) y agrega tu nivel real de inglés y francés si quieres mostrarlo.
-5. **Foto**: la actual mide 245×306 px. Con una foto de mayor resolución se verá más nítida; reemplaza `foto-245.webp` y `foto-490.webp`.
-6. **LinkedIn**: abre el enlace desde el sitio publicado y confirma que lleva a tu perfil.
-
-## Publicar en GitHub Pages
-
-1. Crea un repositorio en GitHub, por ejemplo `portafolio`.
-2. Sube `index.html`, `styles.css`, `script.js`, `assets/`, `README.md` y `CHECKLIST.md` a la rama principal.
-3. En el repositorio abre **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**, elige la rama principal y la carpeta `/ (root)`, y guarda.
-5. Espera la publicación y abre la URL que GitHub Pages muestra en esa sección.
-6. Prueba el sitio publicado en móvil y escritorio; verifica también todos los enlaces.
-
 ## Publicar en Netlify
 
 1. Inicia sesión en Netlify y selecciona la opción para añadir un sitio nuevo.
@@ -57,7 +39,9 @@ El sitio utiliza Google Fonts como mejora visual; si no hay conexión, se mostra
 
 ## Nota sobre contenido
 
-SRIU se presenta como un prototipo académico con vistas para alumnos y administradores. PixelShop se describe como proyecto académico de tienda en línea. Las imágenes de las tarjetas son ilustraciones decorativas, no capturas de sistemas publicados.
+SRIU se presenta como un prototipo académico con vistas para alumnos y administradores. 
+
+PixelShop se describe como proyecto académico de tienda en línea. Las imágenes de las tarjetas son ilustraciones decorativas, no capturas de sistemas publicados.
 
 ## Rediseño "After Hours" (versión 4)
 

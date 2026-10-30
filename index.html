@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="Portafolio académico de José Fausto Salas Fajardo, estudiante de Tecnologías de la Información enfocado en desarrollo web y software.">
+  <title>José Fausto Salas Fajardo | Portafolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="José Fausto Salas Fajardo, inicio">
+        <span class="brand-mark" aria-hidden="true">JF</span>
+        <span class="brand-name">Fausto<span class="brand-dot">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only" data-i18n="menu">Abrir menú</span>
+        <span class="menu-lines" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi" data-i18n="navAbout">Sobre mí</a>
+        <a href="#habilidades" data-i18n="navSkills">Habilidades</a>
+        <a href="#proyectos" data-i18n="navProjects">Proyectos</a>
+        <a href="#formacion" data-i18n="navEducation">Formación</a>
+        <a href="#certificaciones" data-i18n="navCerts">Certificados</a>
+        <a href="#contacto" data-i18n="navContact">Contacto</a>
+      </nav>
+      <div class="header-tools">
+        <label class="sr-only" for="language" data-i18n="languageLabel">Idioma</label>
+        <select id="language" class="language-select" aria-label="Seleccionar idioma">
+          <option value="es">ES</option>
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+        <button class="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+          <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.2A8.5 8.5 0 0 1 8.8 3.5 8.6 8.6 0 1 0 20.5 15.2Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">Portafolio académico · Tecnologías de la Información</span></p>
+          <h1 data-i18n="heroLine">Estoy construyendo cosas que quiero entender de verdad.</h1>
+          <p class="hero-name">José Fausto Salas Fajardo</p>
+          <p class="hero-role" data-i18n="heroRole">Estudiante de TI enfocado en desarrollo web y software.</p>
+          <p class="hero-description" data-i18n="heroDescription">Aprendiendo a convertir ideas en experiencias digitales claras, útiles y accesibles. Este espacio reúne mi formación y algunos proyectos académicos.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos"><span data-i18n="seeProjects">Ver proyectos</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contacto" data-i18n="contactMe">Contactarme</a>
+          </div>
+          <div class="hero-meta">
+            <a href="mailto:josefaustosalasfajardo1@gmail.com" class="email-link">josefaustosalasfajardo1@gmail.com</a>
+            <span class="hero-place" data-i18n="basedIn">Mazatlán, Sinaloa, México</span>
+          </div>
+          <a class="scroll-cue" href="#sobre-mi" data-i18n="scrollPrompt">Sobre mí</a>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img
+              src="assets/foto-245.webp"
+              srcset="assets/foto-245.webp 245w, assets/foto-490.webp 490w"
+              sizes="(max-width: 700px) 70vw, 360px"
+              alt="Fotografía de José Fausto Salas Fajardo, joven de cabello oscuro y rizado con playera roja de cuello blanco." data-i18n-alt="heroAlt"
+              width="245" height="306" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="sobre-mi">
+      <div class="container two-column">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-number">01</span><span data-i18n="aboutEyebrow">Un poco sobre mí</span></p>
+          <h2 data-i18n="aboutTitle">Curiosidad que<br><span class="gradient-text">se convierte en código.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="lead" data-i18n="aboutLead">Soy estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital en la Universidad Politécnica de Sinaloa (UPSIN).</p>
+          <p data-i18n="aboutText">Me interesa el desarrollo web y de software, especialmente la forma en que una interfaz bien organizada puede hacer que un sistema sea más sencillo de utilizar. Estoy construyendo mis conocimientos mediante ejercicios y proyectos académicos, con interés en seguir aprendiendo buenas prácticas de programación, diseño responsivo y accesibilidad.</p>
+          <div class="about-facts">
+            <div class="fact"><span class="fact-symbol" aria-hidden="true">◎</span><div><strong data-i18n="factOneTitle">Idiomas</strong><span data-i18n="factOneText">Español (nativo)</span></div></div>
+            <div class="fact"><span class="fact-symbol" aria-hidden="true">◇</span><div><strong data-i18n="factTwoTitle">Modalidad</strong><span data-i18n="factTwoText">Mazatlán, Sinaloa · Remoto</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow"><span class="eyebrow-number">02</span><span data-i18n="skillsEyebrow">Herramientas y fundamentos</span></p>
+          <h2 data-i18n="skillsTitle">Habilidades en desarrollo</h2>
+          <p class="section-intro" data-i18n="skillsIntro">Tecnologías y áreas relacionadas con mi formación actual. La lista irá creciendo con la práctica.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon icon-purple" aria-hidden="true">⌘</div>
+            <h3 data-i18n="skillWebTitle">Desarrollo web</h3>
+            <p data-i18n="skillWebText">Estructura, estilos y comportamiento de interfaces web, incluyendo componentes con React.</p>
+            <div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-blue" aria-hidden="true">◈</div>
+            <h3 data-i18n="skillSoftwareTitle">Programación</h3>
+            <p data-i18n="skillSoftwareText">Programación orientada a objetos y resolución de problemas en distintos lenguajes.</p>
+            <div class="chips"><span>Java</span><span>POO</span><span>C++</span><span>Kotlin (Android)</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-green" aria-hidden="true">▤</div>
+            <h3 data-i18n="skillDataTitle">Bases de datos</h3>
+            <p data-i18n="skillDataText">Práctica académica con consultas y gestión de datos relacionales.</p>
+            <div class="chips"><span>MySQL</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-orange" aria-hidden="true">⇄</div>
+            <h3 data-i18n="skillNetTitle">Redes y sistemas</h3>
+            <p data-i18n="skillNetText">Fundamentos de redes, conmutación, enrutamiento y Linux, respaldados por cursos de Cisco Networking Academy.</p>
+            <div class="chips"><span>Packet Tracer</span><span>CCNA</span><span>Linux</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-purple" aria-hidden="true">✳</div>
+            <h3 data-i18n="skillToolsTitle">Herramientas de desarrollo</h3>
+            <p data-i18n="skillToolsText">Entornos de desarrollo, control de versiones y herramientas de proyecto.</p>
+            <div class="chips"><span>IntelliJ IDEA</span><span>Android Studio</span><span>Git</span><span>GitHub</span><span>GitLab</span><span>Node.js</span><span>npm</span><span>Gradle</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-blue" aria-hidden="true">◇</div>
+            <h3 data-i18n="skillDesignTitle">Diseño y apoyo</h3>
+            <p data-i18n="skillDesignText">Prototipado de interfaces y diseño visual.</p>
+            <div class="chips"><span>Figma</span><span>Canva</span><span>GeoGebra</span></div>
+          </article>
+        </div>
+        <p class="note-line"><span aria-hidden="true">ⓘ</span><span data-i18n="skillsNote">Las habilidades reflejan mi formación y práctica académica; no representan certificaciones profesionales.</span></p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="proyectos">
+      <div class="container">
+        <div class="section-heading project-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-number">03</span><span data-i18n="projectsEyebrow">Trabajo seleccionado</span></p>
+            <h2 data-i18n="projectsTitle">Proyectos académicos</h2>
+          </div>
+          <p class="section-intro" data-i18n="projectsIntro">Proyectos en los que he trabajado durante mi formación.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-sriu" aria-label="Ilustración decorativa de un panel de reportes">
+              <div class="mock-window"><div class="mock-top"><span></span><span></span><span></span><b>SRIU / dashboard</b></div><div class="mock-body"><div class="mock-sidebar"></div><div class="mock-main"><div class="mock-heading"></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div>
+              <span class="project-index">PROYECTO 01</span>
+            </div>
+            <div class="project-content">
+              <div class="project-type" data-i18n="academicProject">PROYECTO ACADÉMICO</div>
+              <h3>SRIU — Sistema de Reporte de Infraestructura Universitaria</h3>
+              <p data-i18n="sriuDescription">Prototipo de una interfaz para registrar y consultar reportes sobre infraestructura universitaria, con vistas para alumnos y administradores. El objetivo es organizar la información y facilitar el seguimiento de los reportes.</p>
+              <div class="project-tags"><span>React</span><span>JavaScript</span><span>CSS</span><span>UX/UI</span></div>
+              <p class="project-note" data-i18n="sriuLimits">Limitaciones: estado local, autenticación simulada y sin persistencia real de datos.</p>
+              <div class="project-links"><a class="project-link" href="https://github.com/Joseyta/SRIU" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span><span data-i18n="repoLink">Ver repositorios en GitHub</span></a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-pixel">
+              <div class="pixel-window"><div class="pixel-bar"><span>PIXELSHOP</span><span>•••</span></div><div class="pixel-content"><div class="pixel-title"></div><div class="pixel-products"><i><b></b><em></em></i><i><b></b><em></em></i><i><b></b><em></em></i></div><div class="pixel-button"></div></div></div>
+              <span class="project-index">PROYECTO 02</span>
+            </div>
+            <div class="project-content">
+              <div class="project-type" data-i18n="academicProject">PROYECTO ACADÉMICO</div>
+              <h3>PixelShop</h3>
+              <p data-i18n="pixelDescription">Proyecto académico enfocado en la propuesta de una tienda en línea. La interfaz busca presentar productos de manera ordenada y ofrecer una experiencia de navegación sencilla.</p>
+              <div class="project-tags"><span>Desarrollo web</span><span>UI Design</span><span>Responsive</span></div>
+              <div class="project-links"><a class="project-link" href="https://github.com/Joseyta/PixelShop" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span><span data-i18n="repoLink">Ver repositorios en GitHub</span></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="projects-disclaimer" data-i18n="projectsDisclaimer">Nota: las ilustraciones son representaciones visuales del proyecto, no capturas de una aplicación publicada.</p>
+      </div>
+    </section>
+
+    <section class="section" id="formacion">
+      <div class="container two-column education-layout">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-number">04</span><span data-i18n="educationEyebrow">Mi recorrido</span></p>
+          <h2 data-i18n="educationTitle">Formación y<br><span class="gradient-text">aprendizaje continuo.</span></h2>
+          <p class="section-intro" data-i18n="educationIntro">Mi etapa actual está centrada en fortalecer las bases y construir proyectos que me permitan aplicar lo aprendido.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date" data-i18n="current">EN CURSO</p>
+            <h3 data-i18n="degreeTitle">Ingeniería en Tecnologías de la Información e Innovación Digital</h3>
+            <p class="timeline-place">Universidad Politécnica de Sinaloa (UPSIN)</p>
+            <p class="timeline-description" data-i18n="degreeDescription">Formación en programación, desarrollo de software, bases de datos y fundamentos de sistemas de información.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="certificaciones">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow"><span class="eyebrow-number">05</span><span data-i18n="certsEyebrow">Cursos acreditados</span></p>
+          <h2 data-i18n="certsTitle">Certificaciones y reconocimientos</h2>
+          <p class="section-intro" data-i18n="certsIntro">Cursos de redes, sistemas y programación con constancia en PDF.</p>
+        </div>
+        <div class="cert-grid">
+        <article class="cert-card">
+          <a class="cert-thumb" href="assets/certificados/paradigma-poo.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificados/paradigma-poo-480.webp" srcset="assets/certificados/paradigma-poo-480.webp 480w, assets/certificados/paradigma-poo-960.webp 960w" sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 360px" alt="Certificado del curso Paradigma de programación (orientado a objetos), Capacítate para el empleo." data-i18n-alt="certOOPAlt" width="960" height="742" loading="lazy" decoding="async">
+          </a>
+          <div class="cert-body">
+            <p class="cert-issuer">Capacítate para el empleo · Fundación Carlos Slim</p>
+            <h3 data-i18n="certOOP">Paradigma de programación (orientado a objetos)</h3>
+            <p class="cert-meta" data-i18n="certOOPMeta">28 jun 2026 · 40 h · Calificación 8.6</p>
+            <div class="cert-links">
+            <a href="assets/certificados/paradigma-poo.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="certView">Ver certificado (PDF)</span> <span aria-hidden="true">↗</span></a>
+            <a href="https://aprende.org/verifica/df585308-b899-4bb5-a63d-f880541d4ed9/932be9b5-527d-4891-8b41-0f8b1c38d7ae" target="_blank" rel="noopener noreferrer"><span data-i18n="certVerify">Verificar autenticidad</span> <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="cert-card">
+          <a class="cert-thumb" href="assets/certificados/linux-essentials.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificados/linux-essentials-480.webp" srcset="assets/certificados/linux-essentials-480.webp 480w, assets/certificados/linux-essentials-960.webp 960w" sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 360px" alt="Certificado de Fundamentos de Linux, Cisco Networking Academy." data-i18n-alt="certLinuxAlt" width="960" height="651" loading="lazy" decoding="async">
+          </a>
+          <div class="cert-body">
+            <p class="cert-issuer">Cisco Networking Academy · Universidad Politécnica de Sinaloa</p>
+            <h3 data-i18n="certLinux">Fundamentos de Linux</h3>
+            <p class="cert-meta" data-i18n="certLinuxMeta">14 abr 2026</p>
+            <div class="cert-links">
+            <a href="assets/certificados/linux-essentials.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="certView">Ver certificado (PDF)</span> <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="cert-card">
+          <a class="cert-thumb" href="assets/certificados/ccna-srwe.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificados/ccna-srwe-480.webp" srcset="assets/certificados/ccna-srwe-480.webp 480w, assets/certificados/ccna-srwe-960.webp 960w" sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 360px" alt="Certificado de CCNA: Switching, Routing, and Wireless Essentials, Cisco Networking Academy." data-i18n-alt="certSRWEAlt" width="960" height="651" loading="lazy" decoding="async">
+          </a>
+          <div class="cert-body">
+            <p class="cert-issuer">Cisco Networking Academy · Universidad Politécnica de Sinaloa</p>
+            <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+            <p class="cert-meta" data-i18n="certSRWEMeta">14 abr 2026</p>
+            <div class="cert-links">
+            <a href="assets/certificados/ccna-srwe.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="certView">Ver certificado (PDF)</span> <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="cert-card">
+          <a class="cert-thumb" href="assets/certificados/ccna-itn.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificados/ccna-itn-480.webp" srcset="assets/certificados/ccna-itn-480.webp 480w, assets/certificados/ccna-itn-960.webp 960w" sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 360px" alt="Certificado de CCNA: Introduction to Networks, Cisco Networking Academy." data-i18n-alt="certITNAlt" width="960" height="651" loading="lazy" decoding="async">
+          </a>
+          <div class="cert-body">
+            <p class="cert-issuer">Cisco Networking Academy · Universidad Politécnica de Sinaloa</p>
+            <h3>CCNA: Introduction to Networks</h3>
+            <p class="cert-meta" data-i18n="certITNMeta">3 dic 2025</p>
+            <div class="cert-links">
+            <a href="assets/certificados/ccna-itn.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="certView">Ver certificado (PDF)</span> <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="cert-card">
+          <a class="cert-thumb" href="assets/certificados/finder.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificados/finder-480.webp" srcset="assets/certificados/finder-480.webp 480w, assets/certificados/finder-960.webp 960w" sizes="(max-width: 640px) 90vw, (max-width: 980px) 45vw, 360px" alt="Certificado del curso Finder, Capacítate para el empleo." data-i18n-alt="certFinderAlt" width="960" height="742" loading="lazy" decoding="async">
+          </a>
+          <div class="cert-body">
+            <p class="cert-issuer">Capacítate para el empleo · Fundación Carlos Slim</p>
+            <h3 data-i18n="certFinder">Finder</h3>
+            <p class="cert-meta" data-i18n="certFinderMeta">21 sep 2025 · 26 h · Calificación 9.56</p>
+            <div class="cert-links">
+            <a href="assets/certificados/finder.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="certView">Ver certificado (PDF)</span> <span aria-hidden="true">↗</span></a>
+            <a href="https://aprende.org/verifica/df585308-b899-4bb5-a63d-f880541d4ed9/1bdb52ab-e849-45b1-971b-0eb1c45dc9d8" target="_blank" rel="noopener noreferrer"><span data-i18n="certVerify">Verificar autenticidad</span> <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cv-section" id="curriculum">
+      <div class="container cv-panel">
+        <div class="cv-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3.5h7l4 4v13H7a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z"/><path d="M14 3.5v4h4M8.5 12h7M8.5 15.5h7"/></svg></div>
+        <div class="cv-copy">
+          <p class="eyebrow"><span class="eyebrow-number">06</span><span data-i18n="cvEyebrow">Currículum</span></p>
+          <h2 data-i18n="cvTitle">Mi currículum en PDF</h2>
+          <p data-i18n="cvDescription">Resumen de mi formación, habilidades y proyectos académicos en una página.</p>
+        </div>
+        <a class="button button-primary" href="assets/cv-fausto-salas.pdf" download data-i18n="cvDownload">Descargar CV (PDF)</a>
+      </div>
+    </section>
+
+    <section class="section" id="fuera">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-number">07</span><span data-i18n="outEyebrow">Personal</span></p>
+          <h2 data-i18n="outTitle">Fuera del código</h2>
+          <p class="section-intro" data-i18n="outIntro"></p>
+        </div>
+        <div class="out-grid">
+          <article class="out-card"><span aria-hidden="true">i</span><h3 data-i18n="outMusicT">Música</h3><p data-i18n="outMusicP"></p></article>
+          <article class="out-card"><span aria-hidden="true">ii</span><h3 data-i18n="outPianoT">Piano</h3><p data-i18n="outPianoP"></p></article>
+          <article class="out-card"><span aria-hidden="true">iii</span><h3 data-i18n="outFilmT">Cine</h3><p data-i18n="outFilmP"></p></article>
+          <article class="out-card"><span aria-hidden="true">iv</span><h3 data-i18n="outAnimeT">Anime</h3><p data-i18n="outAnimeP"></p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow"><span class="eyebrow-number">08</span><span data-i18n="contactEyebrow">Hablemos</span></p>
+          <h2 data-i18n="contactTitle">¿Construimos algo<br><span class="gradient-text">interesante?</span></h2>
+          <p data-i18n="contactDescription">Si quieres conversar sobre mis proyectos académicos o compartir ideas relacionadas con tecnología, puedes escribirme por correo.</p>
+          <a class="button button-primary" href="mailto:josefaustosalasfajardo1@gmail.com"><span data-i18n="sendEmail">Enviar correo</span> <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-links">
+          <a class="social-link" href="https://github.com/Joseyta" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon" aria-hidden="true">GH</span><span><strong>GitHub</strong><small data-i18n="githubLabel">Ver perfil y repositorios</small></span><span class="external-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/jos%C3%A9-fausto-salas-fajardo-73bb76445" target="_blank" rel="noopener noreferrer">
+            <span class="social-icon social-linkedin" aria-hidden="true">in</span><span><strong>LinkedIn</strong><small data-i18n="linkedinLabel">Perfil profesional</small></span><span class="external-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">JF</span><span class="brand-name">Fausto<span class="brand-dot">.</span></span></a>
+      <p>© <span id="year"></span> José Fausto Salas Fajardo. <span data-i18n="footerRights">Hecho con dedicación y ganas de aprender.</span></p>
+      <a href="#inicio" class="back-top"><span data-i18n="backTop">Volver arriba</span> ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

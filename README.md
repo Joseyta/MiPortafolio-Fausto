@@ -21,13 +21,6 @@ Sitio personal estático para presentar formación, habilidades y proyectos acad
 
 El sitio utiliza Google Fonts como mejora visual; si no hay conexión, se mostrarán fuentes alternativas del sistema.
 
-## Publicar en Netlify
-
-1. Inicia sesión en Netlify y selecciona la opción para añadir un sitio nuevo.
-2. Puedes conectar el repositorio GitHub o arrastrar la carpeta del sitio descomprimida al área de despliegue manual.
-3. No se necesita comando de build ni directorio de salida porque es un sitio estático.
-4. Abre la URL asignada y revisa la navegación, traducciones y modo de color.
-
 ## Accesibilidad y funcionamiento
 
 - Enlace para saltar al contenido, etiquetas semánticas, textos alternativos, controles etiquetados y foco visible.
